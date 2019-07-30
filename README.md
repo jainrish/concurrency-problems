@@ -17,3 +17,6 @@ _**Problem 2:**_ Generalize the signal pattern so that it works both ways. Threa
 
 _**Problem 3:**_ Add semaphores to the following example to enforce mutual exclusion to the shared variable count.
  [Java Solution](Chapter_Three_Basic_Synchronization_Patterns/Mutex.java)
+ 
+_**Problem 4:**_ Generalize the Mutex solution so that it allows multiple threads to run in the critical section at the same time, but it enforces an upper limit on the number of concurrent threads. In other words, no more than n threads can run in the critical section at the same time.
+[Java Solution](Chapter_Three_Basic_Synchronization_Patterns/Multiplex.java)
