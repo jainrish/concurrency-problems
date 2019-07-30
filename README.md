@@ -7,9 +7,11 @@ Below is the problem description and link to their solutions.
 
 #### Chapter 3: Basic Synchronization Patterns
 
-_Problem 1:_ Consider two threads A and B and B has to wait for execution until A completes.
+_**Problem 1:**_ Consider two threads A and B. Thread B should wait for signal from Thread A before execution.
 
 [Java Solution](Chapter_Three_Basic_Synchronization_Patterns/Signal.java)
 
 
+_**Problem 2:**_ Generalize the signal pattern so that it works both ways. Thread A has to wait for Thread B and vice versa. In other words, given below code, we want to guarantee that a1 happens before b2 and b1 happens before a2.
+![](assets/Rendezvous.png)
 
