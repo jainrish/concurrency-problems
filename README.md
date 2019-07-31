@@ -26,3 +26,13 @@ _**Problem 5:**_ Generalize the rendezvous solution. The synchronization require
 
 _**Problem 6:**_ Imagine that threads represent ballroom dancers and that two kinds of dancers, leaders and followers, wait in two queues before entering the dance floor. When a leader arrives, it checks to see if there is a follower waiting. If so, they can both proceed. Otherwise it waits. Similarly, when a follower arrives, it checks for a leader and either proceeds or waits, accordingly. Write code for leaders and followers that enforces these constraints.
 [Java Solution](Chapter_Three_Basic_Synchronization_Patterns/Queue.java)
+
+### Chapter 4: Classical Synchronization Problems
+
+_**Problem 1:**_ Standard producer consumer problem.
+[Java Solution](Chapter_Four_Classical_Synchronization_Problems/ProducerConsumer.java)
+
+_**Problem 2:**_ Write producer-consumer code that handles the finite-buffer constraint i.e. if a producer arrives when the buffer is full, it blocks until a consumer removes an item.
+[Java Solution](Chapter_Four_Classical_Synchronization_Problems/ProducerConsumerFiniteBuffer.java)
+
+
