@@ -23,3 +23,6 @@ _**Problem 4:**_ Generalize the Mutex solution so that it allows multiple thread
 
 _**Problem 5:**_ Generalize the rendezvous solution. The synchronization requirement is that no thread executes critical point until after all threads have executed rendezvous. You can assume that there are n threads and that this value is stored in a variable, n, that is accessible from all threads. When the first n − 1 threads arrive they should block until the nth thread arrives, at which point all the threads may proceed.Rewrite the barrier solution so that after all the threads have passed through, the turnstile is locked again.
 [Java Solution](Chapter_Three_Basic_Synchronization_Patterns/Barrier.java)
+
+_**Problem 6:**_ Imagine that threads represent ballroom dancers and that two kinds of dancers, leaders and followers, wait in two queues before entering the dance floor. When a leader arrives, it checks to see if there is a follower waiting. If so, they can both proceed. Otherwise it waits. Similarly, when a follower arrives, it checks for a leader and either proceeds or waits, accordingly. Write code for leaders and followers that enforces these constraints.
+[Java Solution](Chapter_Three_Basic_Synchronization_Patterns/Queue.java)
