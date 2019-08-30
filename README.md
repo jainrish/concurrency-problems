@@ -35,4 +35,6 @@ _**Problem 1:**_ Standard producer consumer problem.
 _**Problem 2:**_ Write producer-consumer code that handles the finite-buffer constraint i.e. if a producer arrives when the buffer is full, it blocks until a consumer removes an item.
 [Java Solution](Chapter_Four_Classical_Synchronization_Problems/ProducerConsumerFiniteBuffer.java)
 
+_**Problem 3:**_ Standard Readers-Writers problem. A writer cannot enter the critical section while any other thread (reader or writer) is there, and while the writer is there, no other thread may enter.
+[Java Solution](Chapter_Four_Classical_Synchronization_Problems/ReaderWriter.java)
 
